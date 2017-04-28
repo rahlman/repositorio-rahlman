@@ -30,6 +30,7 @@ public class CuentaBancaria {
     double saldo, tipoDeInteres, ingreso, cantidad;
     
     public CuentaBancaria(double saldo, String titular, String numero_de_cuenta){
+        System.out.println("");
         
         this.saldo = saldo;
         this.titular = titular;
